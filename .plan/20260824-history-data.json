@@ -1,0 +1,540 @@
+{
+  "version": "v0.1",
+  "generated_at": "2026-08-24",
+  "sources": [
+    "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+    "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md"
+  ],
+  "counts": {
+    "branches": 28,
+    "periods": 20,
+    "masters": 26,
+    "quotes": 8,
+    "others": 0
+  },
+  "data": {
+    "branches": [
+      {
+        "分支": "中国史",
+        "说明": "中国历史",
+        "代表": "中国古代史、中国近现代史",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 1
+      },
+      {
+        "分支": "世界史",
+        "说明": "全球历史",
+        "代表": "世界古代史、世界近现代史",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 1
+      },
+      {
+        "分支": "专门史",
+        "说明": "特定主题历史",
+        "代表": "经济史、文化史、科技史",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 1
+      },
+      {
+        "分支": "史学史",
+        "说明": "历史学自身发展史",
+        "代表": "中国史学史、西方史学史",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 1
+      },
+      {
+        "特点": "连续性",
+        "说明": "唯一没有中断的古老文明",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 4
+      },
+      {
+        "特点": "统一性",
+        "说明": "长期统一、多民族国家",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 4
+      },
+      {
+        "特点": "包容性",
+        "说明": "吸收融合多种文化",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 4
+      },
+      {
+        "特点": "史学传统深厚",
+        "说明": "史学传统源远流长",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 4
+      },
+      {
+        "特点": "多样性",
+        "说明": "多元文明、多种发展道路",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 6
+      },
+      {
+        "特点": "联系性",
+        "说明": "各地文明相互联系、影响",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 6
+      },
+      {
+        "特点": "不平衡性",
+        "说明": "各地文明发展不平衡",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 6
+      },
+      {
+        "特点": "整体性",
+        "说明": "日益形成整体世界史",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 6
+      },
+      {
+        "类型": "经济史",
+        "说明": "经济发展历史",
+        "例子": "中国经济史、世界经济史",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 7
+      },
+      {
+        "类型": "文化史",
+        "说明": "文化发展历程",
+        "例子": "中国文化史、西方文化史",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 7
+      },
+      {
+        "类型": "科技史",
+        "说明": "科技发展历史",
+        "例子": "中国科技史、世界科技史",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 7
+      },
+      {
+        "类型": "制度史",
+        "说明": "制度演变历史",
+        "例子": "中国政治制度史、西方政治制度史",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 7
+      },
+      {
+        "特点": "专题性",
+        "说明": "聚焦特定主题",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 8
+      },
+      {
+        "特点": "深入性",
+        "说明": "研究更为深入",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 8
+      },
+      {
+        "特点": "交叉性",
+        "说明": "与其他学科交叉",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 8
+      },
+      {
+        "特点": "应用性",
+        "说明": "对现实有借鉴意义",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 8
+      },
+      {
+        "分支": "中国史",
+        "说明": "中国历史",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 9
+      },
+      {
+        "分支": "世界史",
+        "说明": "全球历史",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 9
+      },
+      {
+        "分支": "专门史",
+        "说明": "特定主题历史",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 9
+      },
+      {
+        "分支": "史学史",
+        "说明": "历史学自身发展史",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 9
+      },
+      {
+        "类型": "经济史",
+        "说明": "经济发展历史",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 13
+      },
+      {
+        "类型": "文化史",
+        "说明": "文化发展历程",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 13
+      },
+      {
+        "类型": "科技史",
+        "说明": "科技发展历史",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 13
+      },
+      {
+        "类型": "制度史",
+        "说明": "制度演变历史",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 13
+      }
+    ],
+    "periods": [
+      {
+        "时期": "古代史",
+        "说明": "农业文明时期",
+        "代表": "中国古代史、古希腊罗马史",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 2
+      },
+      {
+        "时期": "近代史",
+        "说明": "工业文明兴起时期",
+        "代表": "中国近代史、世界近代史",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 2
+      },
+      {
+        "时期": "现代史",
+        "说明": "工业文明全面发展时期",
+        "代表": "中国现代史、世界现代史",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 2
+      },
+      {
+        "时期": "当代史",
+        "说明": "信息文明时期",
+        "代表": "中国当代史、世界当代史",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 2
+      },
+      {
+        "时期": "中国古代史",
+        "时间": "约170万年前-1840年",
+        "特点": "封建社会、王朝更迭",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 3
+      },
+      {
+        "时期": "中国近现代史",
+        "时间": "1840年-1949年",
+        "特点": "半殖民地半封建社会、民族救亡",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 3
+      },
+      {
+        "时期": "中国当代史",
+        "时间": "1949年-至今",
+        "特点": "社会主义革命和建设",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 3
+      },
+      {
+        "时期": "世界古代史",
+        "时间": "约300万年前-1640年",
+        "特点": "农耕文明、早期文明",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 5
+      },
+      {
+        "时期": "世界近代史",
+        "时间": "1640年-1917年",
+        "特点": "工业文明兴起、资本主义发展",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 5
+      },
+      {
+        "时期": "世界现代史",
+        "时间": "1917年-至今",
+        "特点": "社会主义兴起、全球化加速",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 5
+      },
+      {
+        "时期": "古代史",
+        "说明": "农业文明时期",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 10
+      },
+      {
+        "时期": "近代史",
+        "说明": "工业文明兴起时期",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 10
+      },
+      {
+        "时期": "现代史",
+        "说明": "工业文明全面发展时期",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 10
+      },
+      {
+        "时期": "当代史",
+        "说明": "信息文明时期",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 10
+      },
+      {
+        "时期": "中国古代史",
+        "时间": "约170万年前-1840年",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 11
+      },
+      {
+        "时期": "中国近现代史",
+        "时间": "1840年-1949年",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 11
+      },
+      {
+        "时期": "中国当代史",
+        "时间": "1949年-至今",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 11
+      },
+      {
+        "时期": "世界古代史",
+        "时间": "约300万年前-1640年",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 12
+      },
+      {
+        "时期": "世界近代史",
+        "时间": "1640年-1917年",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 12
+      },
+      {
+        "时期": "世界现代史",
+        "时间": "1917年-至今",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 12
+      }
+    ],
+    "masters": [
+      {
+        "大师": "司马迁",
+        "领域": "中国史学、纪传体史书",
+        "代表作": "《史记》",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 1
+      },
+      {
+        "大师": "司马光",
+        "领域": "中国史学、编年体史书",
+        "代表作": "《资治通鉴》",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 1
+      },
+      {
+        "大师": "梁启超",
+        "领域": "中国新史学、历史研究法",
+        "代表作": "《中国历史研究法》",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 1
+      },
+      {
+        "大师": "钱穆",
+        "领域": "中国史学、文化史",
+        "代表作": "《国史大纲》",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 1
+      },
+      {
+        "思想": "究天人之际",
+        "说明": "探究天道与人事的关系",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 2
+      },
+      {
+        "思想": "通古今之变",
+        "说明": "贯通古今历史变化",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 2
+      },
+      {
+        "思想": "成一家之言",
+        "说明": "形成自己独特的历史见解",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 2
+      },
+      {
+        "思想": "鉴前世之兴衰",
+        "说明": "借鉴前代兴衰经验教训",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 3
+      },
+      {
+        "思想": "考当今之得失",
+        "说明": "考察当今政治的得失",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 3
+      },
+      {
+        "思想": "资治通鉴",
+        "说明": "为统治者提供治理借鉴",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 3
+      },
+      {
+        "思想": "历史者，叙述进化之现象也",
+        "说明": "历史是叙述进化现象的学问",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 4
+      },
+      {
+        "思想": "新史学",
+        "说明": "提倡新的史学观念和方法",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 4
+      },
+      {
+        "思想": "中国历史研究法",
+        "说明": "系统总结历史研究方法",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 4
+      },
+      {
+        "大师": "司马迁",
+        "领域": "中国史学、纪传体史书",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 5
+      },
+      {
+        "大师": "司马光",
+        "领域": "中国史学、编年体史书",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 5
+      },
+      {
+        "大师": "梁启超",
+        "领域": "中国新史学、历史研究法",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 5
+      },
+      {
+        "大师": "钱穆",
+        "领域": "中国史学、文化史",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 5
+      },
+      {
+        "思想": "究天人之际",
+        "说明": "探究天道与人事的关系",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 6
+      },
+      {
+        "思想": "通古今之变",
+        "说明": "贯通古今历史变化",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 6
+      },
+      {
+        "思想": "成一家之言",
+        "说明": "形成自己独特的历史见解",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 6
+      },
+      {
+        "思想": "鉴前世之兴衰",
+        "说明": "借鉴前代兴衰经验教训",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 7
+      },
+      {
+        "思想": "考当今之得失",
+        "说明": "考察当今政治的得失",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 7
+      },
+      {
+        "思想": "资治通鉴",
+        "说明": "为统治者提供治理借鉴",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 7
+      },
+      {
+        "思想": "历史者，叙述进化之现象也",
+        "说明": "历史是叙述进化现象的学问",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 8
+      },
+      {
+        "思想": "新史学",
+        "说明": "提倡新的史学观念和方法",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 8
+      },
+      {
+        "思想": "中国历史研究法",
+        "说明": "系统总结历史研究方法",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 8
+      }
+    ],
+    "quotes": [
+      {
+        "大师": "司马迁",
+        "名言": "\"究天人之际，通古今之变，成一家之言。\"",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 14
+      },
+      {
+        "大师": "司马光",
+        "名言": "\"鉴前世之兴衰，考当今之得失。\"",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 14
+      },
+      {
+        "大师": "梁启超",
+        "名言": "\"历史者，叙述进化之现象也。\"",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 14
+      },
+      {
+        "大师": "钱穆",
+        "名言": "\"国史大纲，乃中国文化之精神命脉所在。\"",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/02_历史分支与特点/02_历史分支与特点.md",
+        "_table_index": 14
+      },
+      {
+        "大师": "司马迁",
+        "名言": "\"究天人之际，通古今之变，成一家之言。\"",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 9
+      },
+      {
+        "大师": "司马光",
+        "名言": "\"鉴前世之兴衰，考当今之得失。\"",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 9
+      },
+      {
+        "大师": "梁启超",
+        "名言": "\"历史者，叙述进化之现象也。\"",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 9
+      },
+      {
+        "大师": "钱穆",
+        "名言": "\"国史大纲，乃中国文化之精神命脉所在。\"",
+        "_source_file": "/Users/aaron/Mac/Consultant/34-历史-History/_HistoryLib/06_历史大师与学者/06_历史大师与学者.md",
+        "_table_index": 9
+      }
+    ],
+    "others": []
+  }
+}
