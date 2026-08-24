@@ -3,3 +3,7 @@
 node_modules/
 .venv/
 __pycache__/
+
+# 否定规则:macOS 默认 core.ignoreCase=true,*.log 会误伤大小写不敏感的 .Log/ 目录
+# 加此行让 .Log/ 巡检目录正常被 git 追踪
+!.Log/
