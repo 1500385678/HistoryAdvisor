@@ -1,0 +1,208 @@
+{
+  "version": "v0.1",
+  "schema": "dynasties",
+  "generated_at": "2026-08-27",
+  "description": "HistoryAdvisor Phase 0 第 2 项 · 中国主要朝代初始 20 个入库种子数据 · 字段:id/name/start_year/end_year/capital/founder/region/notes",
+  "dynasties": [
+    {
+      "id": 1,
+      "name": "夏",
+      "start_year": -2070,
+      "end_year": -1600,
+      "capital": "阳城（今河南登封）",
+      "founder": "禹",
+      "region": "中原",
+      "notes": "中国史书记载的第一个世袭制朝代,约 470 年"
+    },
+    {
+      "id": 2,
+      "name": "商",
+      "start_year": -1600,
+      "end_year": -1046,
+      "capital": "亳（后期殷/朝歌）",
+      "founder": "汤",
+      "region": "中原",
+      "notes": "甲骨文起源,盘庚迁殷后稳定"
+    },
+    {
+      "id": 3,
+      "name": "周",
+      "start_year": -1046,
+      "end_year": -256,
+      "capital": "镐京（西周）/ 洛邑（东周）",
+      "founder": "武王姬发",
+      "region": "中原",
+      "notes": "分西周（前 770 前）与东周（春秋 + 战国）"
+    },
+    {
+      "id": 4,
+      "name": "秦",
+      "start_year": -221,
+      "end_year": -206,
+      "capital": "咸阳",
+      "founder": "嬴政（始皇帝）",
+      "region": "关中",
+      "notes": "中国第一个大一统中央集权制王朝,书同文车同轨"
+    },
+    {
+      "id": 5,
+      "name": "西汉",
+      "start_year": -202,
+      "end_year": 9,
+      "capital": "长安",
+      "founder": "刘邦",
+      "region": "关中",
+      "notes": "文景之治 + 汉武盛世,丝绸之路开辟"
+    },
+    {
+      "id": 6,
+      "name": "东汉",
+      "start_year": 25,
+      "end_year": 220,
+      "capital": "洛阳",
+      "founder": "刘秀（光武帝）",
+      "region": "中原",
+      "notes": "光武中兴,后期宦官外戚专权致三国"
+    },
+    {
+      "id": 7,
+      "name": "三国(魏蜀吴)",
+      "start_year": 220,
+      "end_year": 280,
+      "capital": "洛阳/成都/建业",
+      "founder": "曹丕/刘备/孙权",
+      "region": "北中南",
+      "notes": "曹魏、蜀汉、东吴鼎立,赤壁之战为转折"
+    },
+    {
+      "id": 8,
+      "name": "西晋",
+      "start_year": 265,
+      "end_year": 316,
+      "capital": "洛阳",
+      "founder": "司马炎",
+      "region": "中原",
+      "notes": "短暂统一,八王之乱 + 五胡乱华致亡"
+    },
+    {
+      "id": 9,
+      "name": "东晋",
+      "start_year": 317,
+      "end_year": 420,
+      "capital": "建康",
+      "founder": "司马睿",
+      "region": "江南",
+      "notes": "偏安江南,与十六国并存"
+    },
+    {
+      "id": 10,
+      "name": "南北朝",
+      "start_year": 420,
+      "end_year": 589,
+      "capital": "平城/洛阳/建康",
+      "founder": "刘裕/萧衍/陈霸先 等",
+      "region": "南北",
+      "notes": "南朝宋齐梁陈 + 北朝北魏东西魏北齐北周"
+    },
+    {
+      "id": 11,
+      "name": "隋",
+      "start_year": 581,
+      "end_year": 618,
+      "capital": "大兴（长安）",
+      "founder": "杨坚（文帝）",
+      "region": "关中",
+      "notes": "结束南北朝分裂,开皇之治 + 大运河"
+    },
+    {
+      "id": 12,
+      "name": "唐",
+      "start_year": 618,
+      "end_year": 907,
+      "capital": "长安",
+      "founder": "李渊（高祖）",
+      "region": "关中",
+      "notes": "贞观之治 + 开元盛世,万邦来朝"
+    },
+    {
+      "id": 13,
+      "name": "五代十国",
+      "start_year": 907,
+      "end_year": 979,
+      "capital": "开封/金陵 等",
+      "founder": "朱温 等",
+      "region": "中原+南方",
+      "notes": "后梁后唐后晋后汉后周 + 南方十国"
+    },
+    {
+      "id": 14,
+      "name": "北宋",
+      "start_year": 960,
+      "end_year": 1127,
+      "capital": "东京（开封）",
+      "founder": "赵匡胤（太祖）",
+      "region": "中原",
+      "notes": "结束五代十国分裂,文官政治 + 商业繁荣"
+    },
+    {
+      "id": 15,
+      "name": "南宋",
+      "start_year": 1127,
+      "end_year": 1279,
+      "capital": "临安（杭州）",
+      "founder": "赵构（高宗）",
+      "region": "江南",
+      "notes": "偏安江南,与金朝对峙,亡于蒙古"
+    },
+    {
+      "id": 16,
+      "name": "元",
+      "start_year": 1271,
+      "end_year": 1368,
+      "capital": "大都（北京）",
+      "founder": "忽必烈",
+      "region": "北方+中原",
+      "notes": "蒙古族建立,首个非汉族大一统王朝"
+    },
+    {
+      "id": 17,
+      "name": "明",
+      "start_year": 1368,
+      "end_year": 1644,
+      "capital": "南京（前期）/ 北京（后期）",
+      "founder": "朱元璋（太祖）",
+      "region": "江南→北京",
+      "notes": "废丞相设三司,郑和下西洋,亡于李自成"
+    },
+    {
+      "id": 18,
+      "name": "清",
+      "start_year": 1636,
+      "end_year": 1912,
+      "capital": "北京",
+      "founder": "皇太极",
+      "region": "北方",
+      "notes": "满族建立,康乾盛世,1912 年宣统退位"
+    },
+    {
+      "id": 19,
+      "name": "中华民国",
+      "start_year": 1912,
+      "end_year": 1949,
+      "capital": "南京/北京/重庆",
+      "founder": "孙中山",
+      "region": "全国",
+      "notes": "亚洲第一个民主共和国,38 年"
+    },
+    {
+      "id": 20,
+      "name": "中华人民共和国",
+      "start_year": 1949,
+      "end_year": null,
+      "capital": "北京",
+      "founder": "毛泽东",
+      "region": "全国",
+      "notes": "1949 年 10 月 1 日成立至今"
+    }
+  ]
+}
