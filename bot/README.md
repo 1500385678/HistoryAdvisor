@@ -119,3 +119,5 @@ LIMIT 3;
 ## 七、变更记录
 
 - **2026-09-01 03:30** D1 骨架:本目录 + `__init__.py` + `README.md`,Phase 0 第 6 项启动
+- **2026-09-03 03:30** D2 补 schema.py(命令路由 + 飞书消息卡 3 模板)+ D3 lookup.py 人物速查流水线(查 figures + 外键回查 dynasties + 角色优先级排序)
+- **2026-09-04 03:30** D4 事件回顾流水线:`recap.py` 落地 + `schema.py` 扩 2 模板(`event_card` / `event_candidate_list`)+ `__init__.py` 升级 v0.1.4。SQL 走预编译 LIKE 转义防注入;多结果按 `year ASC` 排序(近期在前);单结果额外查同朝代 `sources` 按 `credibility DESC` 取 3 部作关联史料;`赤壁之战` 冒烟测试通过,SQL 注入测试返回 0 行。
