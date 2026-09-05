@@ -207,12 +207,19 @@ COMMANDS = {
 }
 
 
+# 英文别名 → 中文命令(对外接口统一返回中文,英文只是输入别名)
+_RECAP_ALIASES = {"事件", "event", "recap", "查事件"}
+
+
 def parse_command(text: str) -> Tuple[Optional[str], Optional[str]]:
     """从飞书消息文本解析出 (命令, 参数)。
 
     约定:
       - 形如 `/历史 事件 赤壁之战` / `/history event 安史之乱`
       - 形如 `赤壁之战`(含"战役/变法/政变/事件"任一兜底词,事件名兜底)
+
+    内部把英文别名 (`event` / `recap`) 统一映射到中文 `"事件"`,
+    兜底也返回中文。对外接口(cmd 字段)统一为中文,业务层(webhook/handler)只比对中文。
 
     Returns:
         (command, query) 或 (None, None) 表示无法解析
@@ -224,15 +231,16 @@ def parse_command(text: str) -> Tuple[Optional[str], Optional[str]]:
     if parts and parts[0].startswith("/"):
         cmd = parts[0].lstrip("/").lower()
         if cmd in ("历史", "history"):
-            if len(parts) >= 3 and parts[1] in ("事件", "event", "recap"):
-                return parts[1], parts[2]
+            if len(parts) >= 3 and parts[1] in _RECAP_ALIASES:
+                return "事件", parts[2]
             return None, None
-        if cmd in ("事件", "event", "recap"):
-            return cmd, parts[1] if len(parts) >= 2 else ""
-    # 兜底:含"战役/变法/政变/事件"且长度 > 2
-    for kw in ("战役", "变法", "政变", "事件"):
-        if kw in text and len(text) > 2:
-            return "recap", text.replace(kw, "").strip() or text
+        if cmd in _RECAP_ALIASES:
+            return "事件", parts[1] if len(parts) >= 2 else ""
+    # 兜底:含"之战/战役/变法/政变/事件"任一关键词且长度 > 1
+    # "之战" 2 字也放行(赤壁之战 4 候选最常见关键词),"战役/变法" 等也是 2 字
+    for kw in ("之战", "战役", "变法", "政变", "事件"):
+        if kw in text and len(text) > 1:
+            return "事件", text.replace(kw, "").strip() or text
     return None, None
 
 

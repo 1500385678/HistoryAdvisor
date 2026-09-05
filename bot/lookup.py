@@ -184,12 +184,19 @@ COMMANDS = {
 }
 
 
+# 英文别名 → 中文命令(对外接口统一返回中文,英文只是输入别名)
+_LOOKUP_ALIASES = {"人物", "figure", "lookup", "查人物"}
+
+
 def parse_command(text: str) -> Tuple[Optional[str], Optional[str]]:
     """从飞书消息文本解析出 (命令, 参数)。
 
     约定:
       - 形如 `/历史 人物 秦始皇` / `/history figure 嬴政`
       - 形如 `秦始皇生平`(纯名字 + 兜底词)
+
+    内部把英文别名 (`figure` / `lookup`) 统一映射到中文 `"人物"`,
+    兜底也返回中文。对外接口(cmd 字段)统一为中文,业务层(webhook/handler)只比对中文。
 
     Returns:
         (command, query) 或 (None, None) 表示无法解析
@@ -203,15 +210,15 @@ def parse_command(text: str) -> Tuple[Optional[str], Optional[str]]:
         cmd = parts[0].lstrip("/").lower()
         # 兼容 /历史 /history
         if cmd in ("历史", "history"):
-            if len(parts) >= 3 and parts[1] in ("人物", "figure", "lookup"):
-                return parts[1], parts[2]
+            if len(parts) >= 3 and parts[1] in _LOOKUP_ALIASES:
+                return "人物", parts[2]
             return None, None
-        if cmd in ("人物", "figure", "lookup"):
-            return cmd, parts[1] if len(parts) >= 2 else ""
+        if cmd in _LOOKUP_ALIASES:
+            return "人物", parts[1] if len(parts) >= 2 else ""
     # 兜底:含"谁/生平/简介"且长度 > 2
     for kw in ("谁", "生平", "简介"):
         if kw in text and len(text) > 2:
-            return "lookup", text.replace(kw, "").strip() or text
+            return "人物", text.replace(kw, "").strip() or text
     return None, None
 
 
