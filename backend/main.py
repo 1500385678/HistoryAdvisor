@@ -1,10 +1,11 @@
-"""历史顾问 Web 后端 · W3 骨架(2026-09-09 T2 启动)
+"""历史顾问 Web 后端 · W3 骨架(2026-09-09 T2 启动) + W4 朝代页(2026-09-10 T2 启动)
 
 设计原则(简洁可入库,仅验证 web → SQLite 端到端联通):
 - 零样式 · Hello 级别 · FastAPI 最小入口
-- 3 路由:根重定向 + 人物页(/person/{id}) + 事件页(/event/{id})
+- 5 路由:根重定向 + 人物页(/person/{id}) + 事件页(/event/{id}) + 朝代页(/dynasty/{id}) + 健康检查
 - SQLite 只读连接 `data/history.db`(沿用 bot/ 模块同源 DB)
-- 人物页返回 3 字段(name / role / dynasty),事件页返回 3 字段(name / year / category)
+- 人物页返回 3 字段(name / role / dynasty),事件页返回 4 字段(name / year / category / dynasty)
+- 朝代页返回 5 字段(id / name / start_year / end_year / capital),镜像人物/事件页模式
 - 联表 dynasties 拿朝代名,失败兜底空字符串(不报错)
 - W4+ 演进:加 CORS / 静态托管 / 搜索 / 时间线 / 地图等
 
@@ -13,8 +14,9 @@
     python3 -m uvicorn backend.main:app --port 8765
 
 验证:
-    curl http://127.0.0.1:8765/person/1   # 秦始皇嬴政
-    curl http://127.0.0.1:8765/event/1    # 大禹治水
+    curl http://127.0.0.1:8765/person/1    # 秦始皇嬴政
+    curl http://127.0.0.1:8765/event/1     # 大禹治水
+    curl http://127.0.0.1:8765/dynasty/4   # 秦(9/10 新增)
 """
 
 from __future__ import annotations
@@ -32,8 +34,8 @@ DB_PATH = PROJECT_ROOT / "data" / "history.db"
 
 app = FastAPI(
     title="历史顾问 Web",
-    version="0.1.0",
-    description="W3 骨架 9/9 启动 · Phase 1 人物页 + 事件页最小版本",
+    version="0.1.1",
+    description="W3 骨架 9/9 启动 + W4 朝代页 9/10 落地 · Phase 1 5 路由",
 )
 
 
@@ -96,6 +98,31 @@ def get_event(event_id: int) -> dict:
             "year": year,
             "category": category or "",
             "dynasty": _dynasty_name(cur, dynasty_id),
+        }
+
+
+@app.get("/dynasty/{dynasty_id}")
+def get_dynasty(dynasty_id: int) -> dict:
+    """朝代页最小版本(W4 第 1 件 · 9/10 启动):dynasties 表只读查 id = ?,返回 5 字段
+
+    字段:id / name / start_year / end_year / capital,镜像人物/事件页模式
+    设计依据:9/9 主计划 W4-6 排期"朝代切换"基础设施,朝代是 W6 切换的根基
+    """
+    with _connect() as conn:
+        cur = conn.cursor()
+        row = cur.execute(
+            "SELECT id, name, start_year, end_year, capital FROM dynasties WHERE id = ?",
+            (dynasty_id,),
+        ).fetchone()
+        if row is None:
+            raise HTTPException(status_code=404, detail=f"朝代 id={dynasty_id} 不存在")
+        did, name, start_year, end_year, capital = row
+        return {
+            "id": did,
+            "name": name or "",
+            "start_year": start_year,
+            "end_year": end_year,
+            "capital": capital or "",
         }
 
 

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>历史顾问 · Web 入口(W3 骨架 9/9)</title>
+  <title>历史顾问 · Web 入口(W3 骨架 9/9 + W4 朝代页 9/10)</title>
   <style>
     body {
       font-family: system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -26,18 +26,19 @@
 </head>
 <body>
   <h1>历史顾问 · Web 入口</h1>
-  <p class="meta">W3 骨架 2026-09-09 启动 · Phase 1 人物页 + 事件页最小版本落地</p>
+  <p class="meta">W3 骨架 2026-09-09 启动 + W4 朝代页 2026-09-10 落地 · Phase 1 5 路由(人物 + 事件 + 朝代)</p>
 
   <ul class="links">
     <li>👤 人物页(后端 FastAPI `/person/{id}`):<a href="/person/1">/person/1</a> · 秦始皇嬴政</li>
     <li>📜 事件页(后端 FastAPI `/event/{id}`):<a href="/event/1">/event/1</a> · 大禹治水</li>
+    <li>🏛️ 朝代页(后端 FastAPI `/dynasty/{id}` · 9/10 新增):<a href="/dynasty/4">/dynasty/4</a> · 秦</li>
     <li>❤️ 健康检查:`/health`</li>
   </ul>
 
   <div class="next">
     <h2>W4+ 演进路线</h2>
     <ul>
-      <li>W4:路由 + 状态管理 + 响应式 + 单测</li>
+      <li>W4:朝代页 ✅ 9/10 落地 + /dynasties 列表 + 路由 + 状态管理 + 响应式 + 单测</li>
       <li>W5:时间线页 + 地图页 + 史料检索</li>
       <li>W6:朝代切换 + 搜索框 + 部署(NGINX / Caddy / 域名)</li>
     </ul>

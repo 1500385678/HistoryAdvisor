@@ -13,13 +13,14 @@ export default function App() {
   return (
     <div style={{ fontFamily: "system-ui, -apple-system, sans-serif", padding: 24 }}>
       <h1>历史顾问 · Web 入口</h1>
-      <p>W3 骨架 9/9 启动 · FastAPI 后端 + React 前端最小版本</p>
+      <p>W3 骨架 9/9 启动 + W4 朝代页 9/10 落地 · FastAPI 后端 + React 前端最小版本</p>
       <ul>
         <li>人物页:<a href="/person/1">/person/1</a>(秦始皇嬴政)</li>
         <li>事件页:<a href="/event/1">/event/1</a>(大禹治水)</li>
+        <li>朝代页:<a href="/dynasty/4">/dynasty/4</a>(秦 · 9/10 新增)</li>
       </ul>
       <p style={{ color: "#666", fontSize: 14 }}>
-        W4 演进:路由 + 状态管理 + 响应式 + 朝代切换 + 搜索框
+        W4 演进:/dynasties 列表 + 状态管理 + 响应式 + 朝代切换 + 搜索框
       </p>
     </div>
   );
